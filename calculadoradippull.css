@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    
+    
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    
+    
+}
+
+
+body{
+    margin: 0;
+    
+
+}
+
+h1{font-size: 3.5em;}
+
+h2{
+    
+    font-size: 3em;
+    text-align: center;
+    padding: 30px 30px;
+    
+    
+}
+
+
+#Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+}
+
+#Calculadora  {
+
+    background-color: #333;
+    color: white;
+
+
+
+}
+
+
+
+#input{
+    padding: 50px 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .calculator-info {
+    flex: 0; /* Allow the calculator info to grow and shrink */
+    padding: 20px;
+  }
+
+  .container-image img {
+    height: 500px;
+    padding: 20px;
+    
+  }
+  
+  .input {
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+
+  
+  
+  
+
