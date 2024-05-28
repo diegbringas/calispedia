@@ -10,7 +10,7 @@ const startServer = (options) => {
     app.use(express.static(public_path)) // contenido estático que ponemos disponible
 
     app.get('*', (req, res) => {
-        const indexPath = path.join(__dirname + `../../../${public_path}/clases-presenciales.html`)
+        const indexPath = path.join(__dirname + `../../../${public_path}`)
         res.sendFile(indexPath)
     })
 
